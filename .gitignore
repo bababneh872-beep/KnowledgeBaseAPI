@@ -1,0 +1,75 @@
+
+# Build output
+bin/
+obj/
+publish/
+node_modules/
+dist/
+
+# Local databases and uploaded documents
+*.db
+*.db-shm
+*.db-wal
+Uploads/
+
+# Local configuration and secrets
+appsettings.json
+appsettings.Development.json
+appsettings.*.json
+!appsettings.example.json
+
+# User-specific files
+*.csproj.user
+*.suo
+
+# Logs
+*.log
+# Secrets and local configuration
+appsettings.json
+appsettings.Development.json
+appsettings.*.json
+!appsettings.example.json
+.env
+.env.*
+!.env.example
+secrets.json
+
+# Build output and IDE files
+bin/
+obj/
+.vs/
+.vscode/
+
+# Private documents and local data
+*.pdf
+Uploads/
+uploads/
+qdrant_storage/
+*.mdf
+*.ldf
+*.bak
+
+# Logs
+*.log
+logs/
+# Local data and sensitive files
+KnowledgeBase.db
+*.db
+*.sqlite
+*.sqlite3
+ExtractedText.txt
+test.txt
+*.pdf
+Uploads/
+uploads/
+
+# Build output and dependencies
+.vs/
+.vscode/
+bin/
+obj/
+publish/
+node_modules/
+*.csproj.user
+*.log
+
